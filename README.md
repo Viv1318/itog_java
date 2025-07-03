@@ -27,3 +27,7 @@
 ![task4_1](img/task4_1.png)
 ![task4_2](img/task4_2.png)
 ![task4_3](img/task4_3.png)
+
+5.Выложить историю команд в терминале ubuntu
+
+История примененных команд в терминале Ubuntu [ЗДЕСЬ](HistoryOfUbuntuTerminalCommands.md)
