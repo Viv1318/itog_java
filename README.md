@@ -22,4 +22,8 @@
 ![task3_6](img/task3_6.png)
 ![task3_7](img/task3_7.png)
 
+4. Установить и удалить deb-пакет с помощью dpkg.
 
+![task4_1](img/task4_1.png)
+![task4_2](img/task4_2.png)
+![task4_3](img/task4_3.png)
