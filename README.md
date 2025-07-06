@@ -38,3 +38,10 @@
 войдут: Лошади, верблюды и ослы.
 
 ![sheme](img/Animals.drawio.png)
+
+7. В подключенном MySQL репозитории создать базу данных “Друзья
+человека”
+
+```sql
+CREATE DATABASE Human_friends;
+```
