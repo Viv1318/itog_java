@@ -1,15 +1,12 @@
-package Controller;
+﻿package Controller;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import javax.swing.text.View;
-import javax.xml.validation.Validator;
 import Exceptions.UncorrectDataException;
 import Model.*;
 import Services.IRepository;
 import Services.PetRepository;
 import UserInterface.*;
-
 
 public class PetController {
     private IRepository<Pet> petRepository;
@@ -24,7 +21,7 @@ public class PetController {
         this.validator = new Validator();
     }
 
-        public void createPet(PetType type) {
+    public void createPet(PetType type) {
 
         String[] data = new String[] { view.getName(), view.getBirthday() };
         validator.validate(data);
@@ -59,7 +56,7 @@ public class PetController {
 
     }
 
-     public void getAllPet() {
+        public void getAllPet() {
         try {
             view.printAll(petRepository.getAll(), Pet.class);
         } catch (RuntimeException e) {
@@ -87,7 +84,7 @@ public class PetController {
         return false;
     }
 
-       public Pet getById(int id) {
+     public Pet getById(int id) {
         try {
             return petRepository.getById(id);
         } catch (RuntimeException e) {
